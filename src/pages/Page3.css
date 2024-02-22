@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  text-align: center;
+}
+.user-container {
+  height: 400px;
+  width: 360px;
+  border: 1px solid orange;
+  border-radius: 20px
+}
+.user-container {
+  color: orange;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button {
+  background: orange;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  width: 320px;
+  height: 60px;
+}
